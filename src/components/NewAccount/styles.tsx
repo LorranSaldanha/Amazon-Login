@@ -99,6 +99,7 @@ export const AreaReturn = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1.25rem 0;
   text-align: center;
   font-size: 1.6rem;
   font-style: normal;
