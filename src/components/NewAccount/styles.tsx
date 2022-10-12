@@ -99,7 +99,7 @@ export const ContentCheck = styled.div`
   align-items: center;
   width: 100%;
   gap: 1rem;
-  padding: 1rem;
+  /* padding: 1rem; */
 `
 export const FloatingText = styled.p`
   font-size: 1.4rem;
