@@ -1,7 +1,9 @@
 import {
+  AreaReturn,
   BlockPassword,
   BlockTerms,
   ButtonAcess,
+  ButtonReturn,
   ContentCheck,
   ContentFields,
   FloatingIcon,
@@ -47,6 +49,10 @@ export function NewAccount() {
           <span> Notificação de Anúncios Baseados em Interesse.</span>
         </BlockTerms>
       </WrapperTerms>
+      <AreaReturn>
+        Você já tem uma conta?
+        <ButtonReturn to="/">Fazer login</ButtonReturn>
+      </AreaReturn>
     </WrapperMain>
   )
 }

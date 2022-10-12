@@ -1,3 +1,4 @@
+import { BlockPassword, WatchPassword } from '../NewAccount/styles'
 import {
   BlockTerms,
   ButtonAcess,
@@ -10,6 +11,7 @@ import {
   WrapperTerms,
   WrapperText
 } from './styles'
+import { BsFillEyeSlashFill } from 'react-icons/bs'
 
 export function Main() {
   return (
@@ -17,7 +19,12 @@ export function Main() {
       <Typography>fazer login</Typography>
       <ContentFields>
         <InputField type="e-mail" placeholder="E-mail o u número de telefone" />
-        <InputField type="password" placeholder="Senha Amazon" />
+        <BlockPassword>
+          <InputField type="password" placeholder="Senha Amazon" />
+          <WatchPassword>
+            <BsFillEyeSlashFill />
+          </WatchPassword>
+        </BlockPassword>
         <ButtonAcess to="register">continuar</ButtonAcess>
       </ContentFields>
       <WrapperTerms>
@@ -29,7 +36,7 @@ export function Main() {
           <WrapperText>
             <TextFloating>Novo na Amazon?</TextFloating>
           </WrapperText>
-          <CreateAccount>criar sua conta da Amazon</CreateAccount>
+          <CreateAccount>Criar sua conta da Amazon</CreateAccount>
         </BlockTerms>
       </WrapperTerms>
     </WrapperMain>

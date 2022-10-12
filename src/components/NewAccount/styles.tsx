@@ -89,9 +89,27 @@ export const ButtonAcess = styled(Link)`
   text-align: center;
   &:hover {
     background-color: #ff9900b0;
+    /* box-shadow: 0px 0px 50px 0px #ff9900b0; */
     transition: ease all 0.3s;
     transform: scale(0.98);
   }
+`
+export const AreaReturn = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  color: #212121;
+  font-weight: 500;
+`
+export const ButtonReturn = styled(Link)`
+  padding-left: 0.5rem;
+  color: blue;
+  font-weight: 600;
+  text-decoration: none;
 `
 export const ContentCheck = styled.div`
   display: flex;

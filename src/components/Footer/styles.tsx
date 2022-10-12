@@ -23,7 +23,7 @@ export const ContentLinks = styled.div`
 export const ExternalLink = styled.a`
   color: #fff;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 500;
   font-style: normal;
   flex-wrap: wrap;
@@ -35,7 +35,7 @@ export const ExternalLink = styled.a`
 export const QuoteCite = styled.p`
   color: #fff;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 500;
   font-style: normal;
 `
