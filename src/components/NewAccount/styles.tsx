@@ -37,7 +37,6 @@ export const ContentFields = styled.form`
   align-items: center;
   flex-direction: column;
   gap: 1.35rem;
-  /* position: relative; */
 `
 export const InputField = styled.input`
   width: 100%;
@@ -58,9 +57,6 @@ export const InputField = styled.input`
     font-size: 1.4rem;
     opacity: 0.8;
   }
-  /* &:nth-child(3) {
-    position: relative;
-  } */
 `
 export const BlockPassword = styled.div`
   width: 100%;
@@ -99,8 +95,8 @@ export const ButtonAcess = styled(Link)`
 `
 export const ContentCheck = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   width: 100%;
   gap: 1rem;
   padding: 1rem;
@@ -116,6 +112,9 @@ export const FloatingText = styled.p`
 export const FloatingIcon = styled.div`
   font-size: 2rem;
   color: #ff9900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 export const WrapperTerms = styled.div`
   width: 100%;
