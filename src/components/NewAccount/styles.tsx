@@ -99,7 +99,6 @@ export const ContentCheck = styled.div`
   align-items: center;
   width: 100%;
   gap: 1rem;
-  /* padding: 1rem; */
 `
 export const FloatingText = styled.p`
   font-size: 1.4rem;
@@ -107,7 +106,6 @@ export const FloatingText = styled.p`
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.03rem;
-  /* text-align: left; */
 `
 export const FloatingIcon = styled.div`
   font-size: 2rem;
