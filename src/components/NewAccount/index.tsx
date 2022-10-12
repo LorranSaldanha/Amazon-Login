@@ -1,4 +1,5 @@
 import {
+  BlockPassword,
   BlockTerms,
   ButtonAcess,
   ContentCheck,
@@ -21,10 +22,12 @@ export function NewAccount() {
       <ContentFields>
         <InputField type="text" placeholder="Nome" />
         <InputField type="e-mail" placeholder="E-mail o u número de telefone" />
-        <InputField type="password" placeholder="Crie uma senha" />
-        <WatchPassword>
-          <BsFillEyeSlashFill />
-        </WatchPassword>
+        <BlockPassword>
+          <InputField type="password" placeholder="Crie uma senha" />
+          <WatchPassword>
+            <BsFillEyeSlashFill />
+          </WatchPassword>
+        </BlockPassword>
         <ContentCheck>
           <FloatingIcon>
             <RiErrorWarningLine />

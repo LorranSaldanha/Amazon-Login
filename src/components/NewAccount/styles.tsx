@@ -58,17 +58,22 @@ export const InputField = styled.input`
     font-size: 1.4rem;
     opacity: 0.8;
   }
-  &:nth-child(3) {
+  /* &:nth-child(3) {
     position: relative;
-  }
+  } */
+`
+export const BlockPassword = styled.div`
+  width: 100%;
+  position: relative;
 `
 export const WatchPassword = styled.div`
-  display: flex;
-  width: 100%;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  top: 25%;
+  right: 1.25rem;
+  z-index: 10;
+  background: #fff;
+  padding-left: 1.25rem;
+  font-size: 2rem;
 `
 export const ButtonAcess = styled(Link)`
   width: 100%;
